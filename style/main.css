@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+body{
+    background: #000;
+    font-family: Lucida Console;
+    
+    
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-family: fantasy;
+    font-size: 60px;
+    color: #00BFFF;
+    margin-bottom: 10px;
+    background: #1C1CC;
+    margin-right: 50px;
+    margin-top: 5px;
+    background: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+}
+
+header nav a:hover{
+    color: #FFA500; 
+}   
+
+/*filme principal*/ 
+
+.filme-principal{
+    font-size: 18 px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/banner.jpg');
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.titulo{
+    font-size: 60px;
+    font-family: Trebuchet Ms;
+    font-style: ;
+    margin-top: 10%;
+    color: white;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+.botao:hover{
+   background-color: #FFA500;;
+   color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    
+    display: block;
+    
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: px;
+}
+
+.planet{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 13px;
+
+}
+
